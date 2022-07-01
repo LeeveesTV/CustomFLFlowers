@@ -1,0 +1,287 @@
+2022-06-14 10:52:26,916 - FederatedClient - INFO - Successfully registered client:site1 for FederatedLearning. Got token:f5c70c18-b92e-4308-a812-94d008c39cce
+created /opt/nvidia/medical/workspace/FederatedLearning/prod_00/site1/startup/../startup/comm/training/x
+created /opt/nvidia/medical/workspace/FederatedLearning/prod_00/site1/startup/../startup/comm/training/y
+created /opt/nvidia/medical/workspace/FederatedLearning/prod_00/site1/startup/../startup/comm/training/t
+2022-06-14 10:59:26,192 - ClientEngine - INFO - Starting client app. rank: 0
+training child process ID: 3962
+starting the client .....
+token is: f5c70c18-b92e-4308-a812-94d008c39cce run_number is: 1 client_name: site1 listen_port: 50309
+2022-06-14 10:59:29,311 - matplotlib.font_manager - INFO - generated new fontManager
+data_dir /opt/nvidia/medical/workspace/FederatedLearning/prod_00/site1/flowers
+training_size 2341 len(database) 2541
+data_dir /opt/nvidia/medical/workspace/FederatedLearning/prod_00/site1/flowers
+2022-06-14 10:59:30,475 - ClientRunner - INFO - [run=1]: client runner started
+2022-06-14 10:59:31,216 - ProcessExecutor - INFO - waiting for process to finish.
+Created the listener on port: 50309
+2022-06-14 10:59:35,480 - ClientRunner - INFO - [run=1]: fetching task from server ...
+2022-06-14 10:59:35,483 - FederatedClient - INFO - Starting to fetch execute task.
+2022-06-14 10:59:41,268 - Communicator - INFO - Received from FederatedLearning server  (77876793 Bytes). getTask time: 5.76752495765686 seconds
+2022-06-14 10:59:41,273 - FederatedClient - INFO - pull_task completed. Task name:train Status:True 
+2022-06-14 10:59:41,329 - ClientRunner - INFO - [run=1, peer=FederatedLearning, peer_run=1]: got task assignment: name=train, id=f0c3c7f4-6c57-4dee-8978-d4aa4577752f
+2022-06-14 10:59:41,330 - ClientRunner - INFO - [run=1, peer=FederatedLearning, peer_run=1, task_name=train, task_id=f0c3c7f4-6c57-4dee-8978-d4aa4577752f]: invoking task executor <class 'trainer.Trainer'>
+epoch  0 , loss:  1.6068165302276611
+epoch  0 , loss:  28.942914962768555
+epoch  0 , loss:  128.86195373535156
+epoch  0 , loss:  39.75335693359375
+epoch  0 , loss:  18.872690200805664
+epoch  0 , loss:  32.44974136352539
+epoch  0 , loss:  10.325940132141113
+epoch  0 , loss:  6.974701404571533
+epoch  0 , loss:  6.58361291885376
+epoch  0 , loss:  3.05574893951416
+epoch  0 , loss:  3.099437713623047
+epoch  0 , loss:  2.1080102920532227
+epoch  0 , loss:  1.9353636503219604
+epoch  0 , loss:  1.6959962844848633
+epoch  0 , loss:  1.5607494115829468
+epoch  0 , loss:  1.566959023475647
+epoch  0 , loss:  1.513833999633789
+epoch  0 , loss:  1.339652419090271
+epoch  0 , loss:  1.3408329486846924
+epoch  0 , loss:  1.4661099910736084
+epoch  0 , loss:  1.8782422542572021
+epoch  0 , loss:  2.055708408355713
+epoch  0 , loss:  1.6655710935592651
+epoch  0 , loss:  1.5383778810501099
+epoch  0 , loss:  1.61207115650177
+epoch  0 , loss:  1.7627019882202148
+epoch  0 , loss:  1.6146674156188965
+epoch  0 , loss:  1.6638290882110596
+epoch  0 , loss:  1.616815447807312
+epoch  0 , loss:  1.6157376766204834
+epoch  0 , loss:  1.6073126792907715
+epoch  0 , loss:  1.6008480787277222
+epoch  0 , loss:  1.5770683288574219
+epoch  0 , loss:  1.589378833770752
+epoch  0 , loss:  1.5439716577529907
+epoch  0 , loss:  1.5766136646270752
+epoch  0 , loss:  1.7093441486358643
+epoch  0 , loss:  1.6138267517089844
+epoch  0 , loss:  1.6089913845062256
+epoch  0 , loss:  1.5888409614562988
+epoch  0 , loss:  1.578550100326538
+epoch  0 , loss:  1.7742469310760498
+epoch  0 , loss:  1.6060734987258911
+epoch  0 , loss:  1.5999979972839355
+epoch  0 , loss:  1.6127851009368896
+epoch  0 , loss:  1.5807628631591797
+epoch  0 , loss:  1.5971202850341797
+epoch  0 , loss:  1.6089515686035156
+epoch  0 , loss:  1.5987968444824219
+epoch  0 , loss:  1.5936628580093384
+epoch  0 , loss:  1.5961560010910034
+epoch  0 , loss:  1.5756484270095825
+epoch  0 , loss:  1.625317096710205
+epoch  0 , loss:  1.6050118207931519
+epoch  0 , loss:  1.6070027351379395
+epoch  0 , loss:  1.5706297159194946
+epoch  0 , loss:  1.600870132446289
+epoch  0 , loss:  1.6122841835021973
+epoch  0 , loss:  1.5944974422454834
+epoch  0 , loss:  1.602234125137329
+epoch  0 , loss:  1.5915162563323975
+epoch  0 , loss:  1.5630065202713013
+epoch  0 , loss:  1.5701909065246582
+epoch  0 , loss:  1.5767841339111328
+epoch  0 , loss:  1.6178812980651855
+epoch  0 , loss:  1.6034634113311768
+epoch  0 , loss:  1.6045645475387573
+epoch  0 , loss:  1.6215195655822754
+epoch  0 , loss:  1.6098648309707642
+epoch  0 , loss:  1.5976228713989258
+epoch  0 , loss:  1.6767101287841797
+epoch  0 , loss:  1.592957854270935
+epoch  0 , loss:  1.605181336402893
+epoch  0 , loss:  1.4562592506408691
+2022-06-14 11:02:53,304 - ClientRunner - INFO - [run=1, peer=FederatedLearning, peer_run=1, task_name=train, task_id=f0c3c7f4-6c57-4dee-8978-d4aa4577752f]: finished processing task
+2022-06-14 11:02:53,308 - FederatedClient - INFO - Starting to push execute result.
+2022-06-14 11:02:53,445 - Communicator - INFO - Send submitUpdate to FederatedLearning server
+2022-06-14 11:02:58,239 - Communicator - INFO - Received comments: FederatedLearning Received from site1 (77877193 Bytes, 1655204578 seconds). SubmitUpdate time: 4.794366121292114 seconds
+2022-06-14 11:02:58,246 - ClientRunner - INFO - [run=1, peer=FederatedLearning, peer_run=1, task_name=train, task_id=f0c3c7f4-6c57-4dee-8978-d4aa4577752f]: result sent to server for task: name=train, id=f0c3c7f4-6c57-4dee-8978-d4aa4577752f
+2022-06-14 11:03:03,252 - ClientRunner - INFO - [run=1]: fetching task from server ...
+2022-06-14 11:03:03,253 - FederatedClient - INFO - Starting to fetch execute task.
+2022-06-14 11:03:03,268 - Communicator - INFO - Received from FederatedLearning server  (421 Bytes). getTask time: 0.00764775276184082 seconds
+2022-06-14 11:03:03,271 - FederatedClient - INFO - pull_task completed. Task name:__try_again__ Status:True 
+2022-06-14 11:03:03,272 - ClientRunner - INFO - [run=1, peer=FederatedLearning, peer_run=1]: server asked to try again - will try in 2 secs
+2022-06-14 11:03:05,274 - ClientRunner - INFO - [run=1]: fetching task from server ...
+2022-06-14 11:03:05,277 - FederatedClient - INFO - Starting to fetch execute task.
+2022-06-14 11:03:05,292 - Communicator - INFO - Received from FederatedLearning server  (421 Bytes). getTask time: 0.0077664852142333984 seconds
+2022-06-14 11:03:05,295 - FederatedClient - INFO - pull_task completed. Task name:__try_again__ Status:True 
+2022-06-14 11:03:05,295 - ClientRunner - INFO - [run=1, peer=FederatedLearning, peer_run=1]: server asked to try again - will try in 2 secs
+2022-06-14 11:03:07,298 - ClientRunner - INFO - [run=1]: fetching task from server ...
+2022-06-14 11:03:07,300 - FederatedClient - INFO - Starting to fetch execute task.
+2022-06-14 11:03:07,314 - Communicator - INFO - Received from FederatedLearning server  (421 Bytes). getTask time: 0.006638765335083008 seconds
+2022-06-14 11:03:07,317 - FederatedClient - INFO - pull_task completed. Task name:__try_again__ Status:True 
+2022-06-14 11:03:07,317 - ClientRunner - INFO - [run=1, peer=FederatedLearning, peer_run=1]: server asked to try again - will try in 2 secs
+2022-06-14 11:03:09,320 - ClientRunner - INFO - [run=1]: fetching task from server ...
+2022-06-14 11:03:09,337 - FederatedClient - INFO - Starting to fetch execute task.
+2022-06-14 11:03:09,359 - Communicator - INFO - Received from FederatedLearning server  (421 Bytes). getTask time: 0.00813150405883789 seconds
+2022-06-14 11:03:09,362 - FederatedClient - INFO - pull_task completed. Task name:__try_again__ Status:True 
+2022-06-14 11:03:09,363 - ClientRunner - INFO - [run=1, peer=FederatedLearning, peer_run=1]: server asked to try again - will try in 2 secs
+2022-06-14 11:03:11,365 - ClientRunner - INFO - [run=1]: fetching task from server ...
+2022-06-14 11:03:11,368 - FederatedClient - INFO - Starting to fetch execute task.
+2022-06-14 11:03:17,011 - Communicator - INFO - Received from FederatedLearning server  (77876740 Bytes). getTask time: 5.635126829147339 seconds
+2022-06-14 11:03:17,031 - FederatedClient - INFO - pull_task completed. Task name:train Status:True 
+2022-06-14 11:03:17,058 - ClientRunner - INFO - [run=1, peer=FederatedLearning, peer_run=1]: got task assignment: name=train, id=5b481bc2-a89e-42ba-ad5d-071fc9cc98db
+2022-06-14 11:03:17,058 - ClientRunner - INFO - [run=1, peer=FederatedLearning, peer_run=1, task_name=train, task_id=5b481bc2-a89e-42ba-ad5d-071fc9cc98db]: invoking task executor <class 'trainer.Trainer'>
+epoch  0 , loss:  1.6201412677764893
+epoch  0 , loss:  1.591820240020752
+epoch  0 , loss:  1.5806217193603516
+epoch  0 , loss:  1.585250973701477
+epoch  0 , loss:  1.6060950756072998
+epoch  0 , loss:  1.5855005979537964
+epoch  0 , loss:  1.5620700120925903
+epoch  0 , loss:  1.5859041213989258
+epoch  0 , loss:  1.5677436590194702
+epoch  0 , loss:  1.5981749296188354
+epoch  0 , loss:  1.5967403650283813
+epoch  0 , loss:  1.5755647420883179
+epoch  0 , loss:  1.61591374874115
+epoch  0 , loss:  1.5920740365982056
+epoch  0 , loss:  1.564666986465454
+epoch  0 , loss:  1.595441460609436
+epoch  0 , loss:  1.6027891635894775
+epoch  0 , loss:  1.5497750043869019
+epoch  0 , loss:  1.58290696144104
+epoch  0 , loss:  1.555856704711914
+epoch  0 , loss:  1.6340714693069458
+epoch  0 , loss:  1.5596126317977905
+epoch  0 , loss:  1.6030259132385254
+epoch  0 , loss:  1.607637882232666
+epoch  0 , loss:  1.6447641849517822
+epoch  0 , loss:  1.5568840503692627
+epoch  0 , loss:  1.6038583517074585
+epoch  0 , loss:  1.571239948272705
+epoch  0 , loss:  1.6291401386260986
+epoch  0 , loss:  1.6357425451278687
+epoch  0 , loss:  1.5996507406234741
+epoch  0 , loss:  1.5616868734359741
+epoch  0 , loss:  1.6343038082122803
+epoch  0 , loss:  1.5799362659454346
+epoch  0 , loss:  1.534624457359314
+epoch  0 , loss:  1.6015392541885376
+epoch  0 , loss:  1.5951175689697266
+epoch  0 , loss:  1.6170618534088135
+epoch  0 , loss:  1.602315902709961
+epoch  0 , loss:  1.6308484077453613
+epoch  0 , loss:  1.6140522956848145
+epoch  0 , loss:  1.5656828880310059
+epoch  0 , loss:  1.6249264478683472
+epoch  0 , loss:  1.5752421617507935
+epoch  0 , loss:  1.5612291097640991
+epoch  0 , loss:  1.6269323825836182
+epoch  0 , loss:  1.597550868988037
+epoch  0 , loss:  1.5786612033843994
+epoch  0 , loss:  1.6255377531051636
+epoch  0 , loss:  1.565272569656372
+epoch  0 , loss:  1.6085317134857178
+epoch  0 , loss:  1.5747638940811157
+epoch  0 , loss:  1.541154384613037
+epoch  0 , loss:  1.600630760192871
+epoch  0 , loss:  1.6635819673538208
+epoch  0 , loss:  1.6152019500732422
+epoch  0 , loss:  1.5580521821975708
+epoch  0 , loss:  1.5672061443328857
+epoch  0 , loss:  1.6263952255249023
+epoch  0 , loss:  1.5631600618362427
+epoch  0 , loss:  1.5867149829864502
+epoch  0 , loss:  1.6367254257202148
+epoch  0 , loss:  1.5526810884475708
+epoch  0 , loss:  1.590022325515747
+epoch  0 , loss:  1.5885478258132935
+epoch  0 , loss:  1.6094523668289185
+epoch  0 , loss:  1.6038756370544434
+epoch  0 , loss:  1.555673599243164
+epoch  0 , loss:  1.5766189098358154
+epoch  0 , loss:  1.4915478229522705
+epoch  0 , loss:  1.5977447032928467
+epoch  0 , loss:  1.5999484062194824
+epoch  0 , loss:  1.6146955490112305
+epoch  0 , loss:  1.498225450515747
+2022-06-14 11:06:33,334 - ClientRunner - INFO - [run=1, peer=FederatedLearning, peer_run=1, task_name=train, task_id=5b481bc2-a89e-42ba-ad5d-071fc9cc98db]: finished processing task
+2022-06-14 11:06:33,336 - FederatedClient - INFO - Starting to push execute result.
+2022-06-14 11:06:33,390 - Communicator - INFO - Send submitUpdate to FederatedLearning server
+2022-06-14 11:06:38,600 - Communicator - INFO - Received comments: FederatedLearning Received from site1 (77877193 Bytes, 1655204798 seconds). SubmitUpdate time: 5.210137367248535 seconds
+2022-06-14 11:06:38,606 - ClientRunner - INFO - [run=1, peer=FederatedLearning, peer_run=1, task_name=train, task_id=5b481bc2-a89e-42ba-ad5d-071fc9cc98db]: result sent to server for task: name=train, id=5b481bc2-a89e-42ba-ad5d-071fc9cc98db
+2022-06-14 11:06:43,612 - ClientRunner - INFO - [run=1]: fetching task from server ...
+2022-06-14 11:06:43,615 - FederatedClient - INFO - Starting to fetch execute task.
+2022-06-14 11:06:43,632 - Communicator - INFO - Received from FederatedLearning server  (421 Bytes). getTask time: 0.008196353912353516 seconds
+2022-06-14 11:06:43,635 - FederatedClient - INFO - pull_task completed. Task name:__try_again__ Status:True 
+2022-06-14 11:06:43,635 - ClientRunner - INFO - [run=1, peer=FederatedLearning, peer_run=1]: server asked to try again - will try in 2 secs
+2022-06-14 11:06:45,637 - ClientRunner - INFO - [run=1]: fetching task from server ...
+2022-06-14 11:06:45,641 - FederatedClient - INFO - Starting to fetch execute task.
+2022-06-14 11:06:45,657 - Communicator - INFO - Received from FederatedLearning server  (421 Bytes). getTask time: 0.007835149765014648 seconds
+2022-06-14 11:06:45,660 - FederatedClient - INFO - pull_task completed. Task name:__try_again__ Status:True 
+2022-06-14 11:06:45,660 - ClientRunner - INFO - [run=1, peer=FederatedLearning, peer_run=1]: server asked to try again - will try in 2 secs
+2022-06-14 11:06:47,662 - ClientRunner - INFO - [run=1]: fetching task from server ...
+2022-06-14 11:06:47,664 - FederatedClient - INFO - Starting to fetch execute task.
+2022-06-14 11:06:47,680 - Communicator - INFO - Received from FederatedLearning server  (421 Bytes). getTask time: 0.007273435592651367 seconds
+2022-06-14 11:06:47,682 - FederatedClient - INFO - pull_task completed. Task name:__try_again__ Status:True 
+2022-06-14 11:06:47,683 - ClientRunner - INFO - [run=1, peer=FederatedLearning, peer_run=1]: server asked to try again - will try in 2 secs
+2022-06-14 11:06:49,685 - ClientRunner - INFO - [run=1]: fetching task from server ...
+2022-06-14 11:06:49,687 - FederatedClient - INFO - Starting to fetch execute task.
+2022-06-14 11:06:49,705 - Communicator - INFO - Received from FederatedLearning server  (421 Bytes). getTask time: 0.006567955017089844 seconds
+2022-06-14 11:06:49,708 - FederatedClient - INFO - pull_task completed. Task name:__try_again__ Status:True 
+2022-06-14 11:06:49,708 - ClientRunner - INFO - [run=1, peer=FederatedLearning, peer_run=1]: server asked to try again - will try in 2 secs
+2022-06-14 11:06:51,710 - ClientRunner - INFO - [run=1]: fetching task from server ...
+2022-06-14 11:06:51,711 - FederatedClient - INFO - Starting to fetch execute task.
+2022-06-14 11:06:51,731 - Communicator - INFO - Received from FederatedLearning server  (539 Bytes). getTask time: 0.011372089385986328 seconds
+2022-06-14 11:06:51,733 - FederatedClient - INFO - pull_task completed. Task name:submit_model Status:True 
+2022-06-14 11:06:51,734 - ClientRunner - INFO - [run=1, peer=FederatedLearning, peer_run=1]: got task assignment: name=submit_model, id=b3569f4c-3753-4657-8910-169fd504b94a
+2022-06-14 11:06:51,734 - ClientRunner - INFO - [run=1, peer=FederatedLearning, peer_run=1, task_name=submit_model, task_id=b3569f4c-3753-4657-8910-169fd504b94a]: invoking task executor <class 'trainer.Trainer'>
+2022-06-14 11:06:52,159 - ClientRunner - INFO - [run=1, peer=FederatedLearning, peer_run=1, task_name=submit_model, task_id=b3569f4c-3753-4657-8910-169fd504b94a]: finished processing task
+2022-06-14 11:06:52,161 - FederatedClient - INFO - Starting to push execute result.
+2022-06-14 11:06:52,259 - Communicator - INFO - Send submitUpdate to FederatedLearning server
+2022-06-14 11:06:58,556 - Communicator - INFO - Received comments: FederatedLearning Received from site1 (77877149 Bytes, 1655204817 seconds). SubmitUpdate time: 6.297063112258911 seconds
+2022-06-14 11:06:58,559 - ClientRunner - INFO - [run=1, peer=FederatedLearning, peer_run=1, task_name=submit_model, task_id=b3569f4c-3753-4657-8910-169fd504b94a]: result sent to server for task: name=submit_model, id=b3569f4c-3753-4657-8910-169fd504b94a
+2022-06-14 11:07:03,565 - ClientRunner - INFO - [run=1]: fetching task from server ...
+2022-06-14 11:07:03,567 - FederatedClient - INFO - Starting to fetch execute task.
+2022-06-14 11:07:09,283 - Communicator - INFO - Received from FederatedLearning server  (77876777 Bytes). getTask time: 5.708354711532593 seconds
+2022-06-14 11:07:09,300 - FederatedClient - INFO - pull_task completed. Task name:validate Status:True 
+2022-06-14 11:07:09,335 - ClientRunner - INFO - [run=1, peer=FederatedLearning, peer_run=1]: got task assignment: name=validate, id=f9b0f353-f1d5-41f6-a826-afc13a39ad9e
+2022-06-14 11:07:09,337 - ClientRunner - INFO - [run=1, peer=FederatedLearning, peer_run=1, task_name=validate, task_id=f9b0f353-f1d5-41f6-a826-afc13a39ad9e]: invoking task executor <class 'validator.Validator'>
+0.17
+2022-06-14 11:07:13,144 - Validator - INFO - [run=1, peer=FederatedLearning, peer_run=1, task_name=validate, task_id=f9b0f353-f1d5-41f6-a826-afc13a39ad9e]: Accuracy when validating SRV_server's model on site1s data: 0.17
+2022-06-14 11:07:13,145 - ClientRunner - INFO - [run=1, peer=FederatedLearning, peer_run=1, task_name=validate, task_id=f9b0f353-f1d5-41f6-a826-afc13a39ad9e]: finished processing task
+2022-06-14 11:07:13,147 - FederatedClient - INFO - Starting to push execute result.
+2022-06-14 11:07:13,154 - Communicator - INFO - Send submitUpdate to FederatedLearning server
+2022-06-14 11:07:13,173 - Communicator - INFO - Received comments: FederatedLearning Received from site1 (1015 Bytes, 1655204833 seconds). SubmitUpdate time: 0.01877903938293457 seconds
+2022-06-14 11:07:13,176 - ClientRunner - INFO - [run=1, peer=FederatedLearning, peer_run=1, task_name=validate, task_id=f9b0f353-f1d5-41f6-a826-afc13a39ad9e]: result sent to server for task: name=validate, id=f9b0f353-f1d5-41f6-a826-afc13a39ad9e
+2022-06-14 11:07:18,177 - ClientRunner - INFO - [run=1]: fetching task from server ...
+2022-06-14 11:07:18,180 - FederatedClient - INFO - Starting to fetch execute task.
+2022-06-14 11:07:24,059 - Communicator - INFO - Received from FederatedLearning server  (77876772 Bytes). getTask time: 5.8719258308410645 seconds
+2022-06-14 11:07:24,066 - FederatedClient - INFO - pull_task completed. Task name:validate Status:True 
+2022-06-14 11:07:24,089 - ClientRunner - INFO - [run=1, peer=FederatedLearning, peer_run=1]: got task assignment: name=validate, id=25940608-0c02-4249-8b10-8c47598043ce
+2022-06-14 11:07:24,090 - ClientRunner - INFO - [run=1, peer=FederatedLearning, peer_run=1, task_name=validate, task_id=25940608-0c02-4249-8b10-8c47598043ce]: invoking task executor <class 'validator.Validator'>
+0.17
+2022-06-14 11:07:26,553 - Validator - INFO - [run=1, peer=FederatedLearning, peer_run=1, task_name=validate, task_id=25940608-0c02-4249-8b10-8c47598043ce]: Accuracy when validating site2's model on site1s data: 0.17
+2022-06-14 11:07:26,554 - ClientRunner - INFO - [run=1, peer=FederatedLearning, peer_run=1, task_name=validate, task_id=25940608-0c02-4249-8b10-8c47598043ce]: finished processing task
+2022-06-14 11:07:26,557 - FederatedClient - INFO - Starting to push execute result.
+2022-06-14 11:07:26,564 - Communicator - INFO - Send submitUpdate to FederatedLearning server
+2022-06-14 11:07:26,580 - Communicator - INFO - Received comments: FederatedLearning Received from site1 (1010 Bytes, 1655204846 seconds). SubmitUpdate time: 0.015598773956298828 seconds
+2022-06-14 11:07:26,583 - ClientRunner - INFO - [run=1, peer=FederatedLearning, peer_run=1, task_name=validate, task_id=25940608-0c02-4249-8b10-8c47598043ce]: result sent to server for task: name=validate, id=25940608-0c02-4249-8b10-8c47598043ce
+2022-06-14 11:07:31,588 - ClientRunner - INFO - [run=1]: fetching task from server ...
+2022-06-14 11:07:31,590 - FederatedClient - INFO - Starting to fetch execute task.
+2022-06-14 11:07:37,196 - Communicator - INFO - Received from FederatedLearning server  (77876772 Bytes). getTask time: 5.59839129447937 seconds
+2022-06-14 11:07:37,204 - FederatedClient - INFO - pull_task completed. Task name:validate Status:True 
+2022-06-14 11:07:37,227 - ClientRunner - INFO - [run=1, peer=FederatedLearning, peer_run=1]: got task assignment: name=validate, id=cecc11ab-d26a-41e9-9a5d-ca7fa9cbb3c7
+2022-06-14 11:07:37,227 - ClientRunner - INFO - [run=1, peer=FederatedLearning, peer_run=1, task_name=validate, task_id=cecc11ab-d26a-41e9-9a5d-ca7fa9cbb3c7]: invoking task executor <class 'validator.Validator'>
+0.17
+2022-06-14 11:07:39,082 - Validator - INFO - [run=1, peer=FederatedLearning, peer_run=1, task_name=validate, task_id=cecc11ab-d26a-41e9-9a5d-ca7fa9cbb3c7]: Accuracy when validating site1's model on site1s data: 0.17
+2022-06-14 11:07:39,084 - ClientRunner - INFO - [run=1, peer=FederatedLearning, peer_run=1, task_name=validate, task_id=cecc11ab-d26a-41e9-9a5d-ca7fa9cbb3c7]: finished processing task
+2022-06-14 11:07:39,086 - FederatedClient - INFO - Starting to push execute result.
+2022-06-14 11:07:39,094 - Communicator - INFO - Send submitUpdate to FederatedLearning server
+2022-06-14 11:07:39,109 - Communicator - INFO - Received comments: FederatedLearning Received from site1 (1010 Bytes, 1655204859 seconds). SubmitUpdate time: 0.015401840209960938 seconds
+2022-06-14 11:07:39,112 - ClientRunner - INFO - [run=1, peer=FederatedLearning, peer_run=1, task_name=validate, task_id=cecc11ab-d26a-41e9-9a5d-ca7fa9cbb3c7]: result sent to server for task: name=validate, id=cecc11ab-d26a-41e9-9a5d-ca7fa9cbb3c7
+2022-06-14 11:07:44,115 - ClientRunner - INFO - [run=1]: fetching task from server ...
+2022-06-14 11:07:44,117 - FederatedClient - INFO - Starting to fetch execute task.
+2022-06-14 11:07:44,132 - Communicator - INFO - Received from FederatedLearning server  (397 Bytes). getTask time: 0.006155967712402344 seconds
+2022-06-14 11:07:44,134 - FederatedClient - INFO - pull_task completed. Task name:__end_run__ Status:True 
+2022-06-14 11:07:44,135 - ClientRunner - INFO - [run=1, peer=FederatedLearning, peer_run=1]: server asked to end the run
+2022-06-14 11:07:44,135 - ClientRunner - INFO - [run=1]: run method requests end run events sequence
+2022-06-14 11:07:46,136 - ClientRunner - INFO - [run=1]: ABOUT_TO_END_RUN fired
+2022-06-14 11:07:48,540 - ClientRunner - INFO - [run=1]: received aux request from Server to end current RUN
+2022-06-14 11:07:48,541 - ClientRunner - INFO - [run=1]: ABORT (RUN) command received
+2022-06-14 11:07:48,541 - ClientRunner - INFO - [run=1]: ABORT (RUN) requests end run events sequence
+2022-06-14 11:07:48,629 - ClientRunner - INFO - [run=1]: END_RUN fired
+2022-06-14 11:07:50,866 - ProcessExecutor - INFO - process finished with execution code: 0

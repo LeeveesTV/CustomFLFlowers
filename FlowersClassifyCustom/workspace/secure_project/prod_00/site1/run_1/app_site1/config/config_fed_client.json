@@ -1,0 +1,30 @@
+{
+  "format_version": 2,
+
+  "executors": [
+    {
+      "tasks": ["train", "submit_model"],
+      "executor": {
+        "path": "trainer.Trainer",
+        "args": {
+          "lr": 0.01,
+          "epochs": 1
+        }
+      }
+    },
+    {
+      "tasks": ["validate"],
+      "executor": {
+        "path": "validator.Validator",
+        "args": {
+        }
+      }
+    }
+  ],
+  "task_result_filters": [
+  ],
+  "task_data_filters": [
+  ],
+  "components": [
+  ]
+}
